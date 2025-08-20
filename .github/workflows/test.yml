@@ -54,7 +54,7 @@ jobs:
         uses: erlef/setup-beam@v1.18.1
         with:
           otp-version: "26.0.2"
-          gleam-version: "1.12.0"
+          gleam-version: "1.11.0"
           rebar3-version: "3"
           elixir-version: "1.18.4"
       - name: test formatting
